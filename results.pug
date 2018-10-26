@@ -1,0 +1,7 @@
+html
+  head
+    link(href="/css/style.css", rel="stylesheet")
+  body
+    img(src="data:image/png;base64," + image)
+    each concept in concepts
+      p #{concept.name}: #{concept.value}
